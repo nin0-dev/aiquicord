@@ -68,7 +68,10 @@ export const CspPolicies: PolicyMap = {
     "sponsor.ajay.app": ConnectSrc, // Dearrow API
     "dearrow-thumb.ajay.app": ImageSrc, // Dearrow Thumbnail CDN
     "usrbg.is-hardly.online": ImageSrc, // USRBG API
-    "icons.duckduckgo.com": ImageSrc, // DuckDuckGo Favicon API (Reverse Image Search)
+    "icons.duckduckgo.com": ImageSrc, // DuckDuckGo Favicon API (Reverse Image Search),
+    "vendroid.nin0.dev": ConnectSrc, // Song.link proxy
+    "botto.nin0.dev": ConnectSrc, // Song.link proxy
+    "*.mzstatic.com": ImageSrc, // Album art for SongLink (itunes)
 
     // Tenor, used by TenorSearch plugin and some themes
     "*.tenor.com": ImageAndMediaSrc,
